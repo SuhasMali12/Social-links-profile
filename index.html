@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 300px;
+      height: 500px;
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .logo {
+      background-image: url("assets/images/avatar-jessica.jpeg");
+      background-size: cover;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      align-self: center;
+      margin: auto;
+    }
+
+    .name {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      color: white;
+      text-align: center;
+      padding-top: 12x;
+    }
+
+    .add {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 0.85rem;
+      color: hsl(75, 94%, 57%);
+      text-align: center;
+      padding-top: 8px;
+    }
+
+    .role {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 150;
+      font-style: normal;
+      color: white;
+      text-align: center;
+      padding-top: 15px;
+    }
+
+    .social-menu {
+      display: flex;
+      display: inline;
+      justify-content: space-evenly;
+      align-items: center;
+
+    }
+
+    .social-menu input {
+      height: 40px;
+      width: 100%;
+      padding: 12px 0px;
+      border-radius: 8px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 14px;
+      text-align: center;
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      border: none;
+      margin-top: 15px;
+    }
+
+    input:hover {
+      background-color: hsl(75, 93%, 47%);
+      transition-duration: 1s;
+      color: hsl(0, 0%, 8%);
+    }
+    .attribution {
+      font-size: 12px;
+      text-align: center;
+      background-color: black;
+      color:white;
+      font-family: "Inter", sans-serif;
+    }
+
+    .attribution a {
+      color: hsl(75, 94%, 57%);
+      text-decoration: none;
+    }
+
+    .attribution a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <div class="logo"></div>
+        <div class="name">
+          <h2>Jessica Randall</h2>
+        </div>
+        <div class="add">
+          <p>London,United Kingdom</p>
+        </div>
+        <div class="role">
+          <p>"Front-end developer and avid reader."</p>
+        </div>
+        <div class="social-menu">
+          <div class="github">
+            <input type="submit" value="GitHub">
+          </div>
+          <div class="frontendmentor">
+            <input type="submit" value="Frontend Mentor">
+          </div>
+          <div class="linkedin">
+            <input type="submit" value="Linkedin">
+          </div>
+          <div class="twitter">
+            <input type="submit" value="Twitter">
+          </div>
+          <div class="instagram">
+            <input type="submit" value="Instagram">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Suhas Mali</a>.
+  </div>
+</body>
+
+</html>
